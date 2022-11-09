@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Glegoo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+.image {
+  background: linear-gradient(0deg, rgba(43, 81, 69, 0.95), rgba(43, 81, 69, 0.95)), url("../assets/Brainstem for portfolio.jpg");
+  background-size: cover;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #2B5145;
+}
+
+.Logo {
+  color: #ffdbed;
+  font-family: "Glegoo", serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.Menu {
+  font-family: "DM Sans", sans-serif;
+  color: #fff0f8;
+  display: grid;
+}
+
+.Header {
+  color: #ffdbed;
+  font-family: "Glegoo", serif;
+  letter-spacing: 3px;
+}
+
+.JobTitle {
+  color: #fff0f8;
+  font-family: "Glegoo", serif;
+}
+
+.Quote {
+  color: #fff0f8;
+  font-family: "Glegoo", serif;
+}
+
+.Contact {
+  color: #fff0f8;
+  font-family: "Glegoo", serif;
+}/*# sourceMappingURL=styles.css.map */
