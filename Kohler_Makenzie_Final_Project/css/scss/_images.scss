@@ -1,0 +1,27 @@
+.image {
+background: linear-gradient(0deg,rgba(43, 81, 69, .95), rgba(43, 81, 69, .95)), url("../assets/Brainstem for portfolio.jpg");
+background-size: cover;
+}
+
+.meimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+
+.me {
+border-radius: 50%;
+border: 10px solid #D96D2B;
+object-fit: contain;
+width: 525px;
+height: 525px;
+margin-bottom: 30px;
+margin-top: 60px;
+}
+
+.aboutimage {
+    background: linear-gradient(0deg,rgba(43, 81, 69, .95), rgba(43, 81, 69, .95)), url("../assets/DNA_pic.jpg");
+background-size: cover;
+max-width: 100%;
+}

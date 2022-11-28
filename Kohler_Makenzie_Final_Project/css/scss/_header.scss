@@ -1,0 +1,22 @@
+.Menu{
+    font-family: 'DM Sans', sans-serif;
+    color: #fff0f8;
+    background-color: #D96D2B;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.Menu:hover {
+    font-size: large;
+    background-color: #2B5145;
+    text-decoration: underline;
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}

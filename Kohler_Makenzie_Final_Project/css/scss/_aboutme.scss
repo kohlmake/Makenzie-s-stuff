@@ -1,0 +1,69 @@
+
+.aboutheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.aboutlogo{
+    color: #ffdbed;
+    font-family: 'Glegoo', serif;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.aboutmenu {
+    font-family: 'DM Sans', sans-serif;
+    color: #fff0f8;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+.aboutmenu:hover {
+font-size: large;
+text-decoration: underline;
+}
+
+.Aboutmecontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:20px;
+    @media (max-width: 400px) { 
+        flex-direction: column;
+    }
+
+}
+
+.aboutbio {
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -.5px;
+    color: #fff0f8;
+    font-size: 24px;
+    font-weight: 100;
+    display: flex;
+    flex: 1;
+}
+.aboutContactCont{
+    flex:1;
+}
+.aboutcontact {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff0f8;
+    background-color: #D96D2B;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    max-width: 160px;
+margin-bottom: 10px;
+    
+}
+
+.aboutdegrees {
+    color: #fff0f8;
+    font-family: 'Glegoo', serif;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
