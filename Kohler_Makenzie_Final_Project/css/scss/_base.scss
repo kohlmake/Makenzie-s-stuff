@@ -20,6 +20,9 @@ text-align: center;
     color: #ffdbed;
     font-family: 'Glegoo', serif;
     letter-spacing: 3px; 
+    @media (max-width: 430px) { 
+        font-size: 1.75em;
+    }
 }
 
 .line{
