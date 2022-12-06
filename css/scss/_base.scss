@@ -1,0 +1,30 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%
+}
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Glegoo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+body {
+    background-color: #2B5145;
+}
+
+.Logo{
+color: #ffdbed;
+font-family: 'Glegoo', serif;
+letter-spacing: 3px;
+text-align: center;
+}
+
+.Header{
+    color: #ffdbed;
+    font-family: 'Glegoo', serif;
+    letter-spacing: 3px; 
+    @media (max-width: 430px) { 
+        font-size: 1.75em;
+    }
+}
+
+.line{
+    margin-bottom: 15px;
+}

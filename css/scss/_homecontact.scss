@@ -1,0 +1,61 @@
+.Contactcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @media (max-width: 430px) { 
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.phone{
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.twitter{
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.email{
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.linkedin{
+width: 30px;
+height: 30px;
+text-decoration: none;
+}
+
+.Contact{
+   color: #fff0f8;
+    font-family: 'Glegoo', serif;  
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.emailicon{
+width: 30px;
+height: 30px;
+}
+
+.phoneicon{
+width: 30px;
+height: 30px;
+}
+
+.twittericon{
+width: 30px;
+height: 30px;
+}
+
+.linkedinicon{
+ width: 30px;
+ height: 30px;
+}

@@ -1,0 +1,40 @@
+.Menu{
+    font-family: 'DM Sans', sans-serif;
+    color: #fff0f8;
+    background-color: #D96D2B;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    @media (max-width: 430px) { 
+        padding: 8px 15px;
+        margin: 5px;
+    }
+}
+
+.Menu:hover {
+    font-size: large;
+    background-color: #2B5145;
+    text-decoration: underline;
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   @media (max-width: 430px) { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+}
+
+#contactheader{
+    text-align: center;
+}
+
+#portfolioheader{
+    text-align: center;
+}
