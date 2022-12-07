@@ -12,7 +12,6 @@
 }
 
 .Menu:hover {
-    font-size: large;
     background-color: #2B5145;
     text-decoration: underline;
 }
@@ -38,3 +37,11 @@
 #portfolioheader{
     text-align: center;
 }
+
+#headermenucontact, #headermenuportfolio {
+display: none;
+@media (max-width: 430px) { 
+    display: block;
+}
+}
+

@@ -4,6 +4,14 @@
   background: linear-gradient(0deg, rgba(43, 81, 69, 0.95), rgba(43, 81, 69, 0.95)), url("../assets/Brainstem for portfolio.jpg");
   background-size: cover;
 }
+@media (max-width: 430px) {
+  .image {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 430px;
+    height: 600px;
+  }
+}
 
 .meimage {
   display: flex;
@@ -37,6 +45,15 @@
   background-size: cover;
   max-width: 100%;
 }
+@media (max-width: 430px) {
+  .aboutimage {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 430px;
+    height: 1000px;
+    margin-top: 10px;
+  }
+}
 
 .portfoliocontainer {
   display: flex;
@@ -67,6 +84,10 @@
        object-fit: fill;
     width: 430px;
   }
+}
+
+.portfolioimage:hover {
+  box-shadow: 0 0 15px #ffdbed;
 }
 
 *, *::before, *::after {
@@ -117,7 +138,6 @@ body {
 }
 
 .Menu:hover {
-  font-size: large;
   background-color: #2B5145;
   text-decoration: underline;
 }
@@ -146,6 +166,15 @@ body {
   text-align: center;
 }
 
+#headermenucontact, #headermenuportfolio {
+  display: none;
+}
+@media (max-width: 430px) {
+  #headermenucontact, #headermenuportfolio {
+    display: block;
+  }
+}
+
 .Homepage_Intro {
   display: flex;
   align-items: center;
@@ -154,6 +183,14 @@ body {
   .Homepage_Intro {
     display: flex;
     flex-direction: column;
+  }
+}
+.Homepage_Intro .Block {
+  width: 50%;
+}
+@media (max-width: 430px) {
+  .Homepage_Intro .Block {
+    width: auto;
   }
 }
 
@@ -172,6 +209,7 @@ body {
     width: 430px;
     display: flex;
     justify-content: center;
+    border: none;
   }
 }
 
@@ -193,7 +231,10 @@ body {
 .Quote {
   color: #fff0f8;
   font-family: "Glegoo", serif;
+  font-size: 18px;
   text-align: center;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 @media (max-width: 430px) {
   .Quote {
@@ -205,12 +246,14 @@ body {
     text-align: justify;
     margin-bottom: 20px;
     margin-top: 5px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
 #quoteattribute {
   text-align: right;
-  padding-right: 100px;
+  padding-right: 125px;
 }
 @media (max-width: 430px) {
   #quoteattribute {
@@ -334,6 +377,10 @@ body {
   margin-bottom: 10px;
 }
 
+.aboutcontact:hover {
+  box-shadow: 0 0 5px #fffbed;
+}
+
 @media (max-width: 430px) {
   .degreescontainer {
     padding-left: 5px;
@@ -417,4 +464,27 @@ body {
 .linkedinicon {
   width: 30px;
   height: 30px;
+}
+
+.email:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+.phone:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+.twitter:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+.linkedinicon:hover {
+  border-style: none none solid none;
+  border-color: white;
 }/*# sourceMappingURL=styles.css.map */

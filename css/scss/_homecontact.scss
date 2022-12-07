@@ -59,3 +59,23 @@ height: 30px;
  width: 30px;
  height: 30px;
 }
+
+.email:hover {
+text-decoration: underline;
+text-decoration-color: white;
+}
+
+.phone:hover{
+    text-decoration: underline;
+text-decoration-color: white;
+}
+ 
+.twitter:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.linkedinicon:hover{
+    border-style: none none solid none;
+    border-color: white;
+} 
